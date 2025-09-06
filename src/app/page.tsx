@@ -20,7 +20,7 @@ async function getData() {
   console.log("Serwer: Rozpoczęto generowanie strony.");
 
   // Symulacja długiego opóźnienia sieciowego na serwerze
-  await delay(100);
+  await delay(500);
 
   // Celowo blokujące zadanie na serwerze, które opóźnia TTI
   const serverResult = heavyTask(50000000);
